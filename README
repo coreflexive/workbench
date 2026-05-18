@@ -1,0 +1,6 @@
+# Derivary
+
+Structured mathematical derivations in relation algebra, predicate calculus, Galois connections, and calculational proof.
+
+Each derivation directory contains its Typst source and compiled PDF.
+Shared Typst helpers are in `lib/`.

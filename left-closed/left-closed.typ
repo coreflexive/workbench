@@ -66,7 +66,7 @@
       ),
 
       step(
-        $equiv$,
+        $arrow.double$,
         [Predicate calculus],
         $(forall a | a in R[X] : a in X)$
       ),
