@@ -4,3 +4,5 @@ Structured mathematical derivations in relation algebra, predicate calculus, Gal
 
 Each derivation directory contains its Typst source and compiled PDF.
 Shared Typst helpers are in `lib/`.
+
+This is a working archive.
