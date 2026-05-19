@@ -14,3 +14,5 @@
     ..observe("1.", $(forall a | a in A : a "R" a)$),
   )
 )
+
+#index
