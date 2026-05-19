@@ -1,3 +1,5 @@
+#import "../lib/doc.typ": *
+
 #import "./index.typ": *
 #import "./observation/01.typ": *
 
@@ -16,4 +18,7 @@
 //------------------------------------------
 // Proofs
 //------------------------------------------
-#obs-01
+#artefact(
+  "Proof of Observation 1",
+  boxed[#obs-01]
+)
