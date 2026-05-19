@@ -2,8 +2,7 @@
 #import "../../lib/rel.typ": *
 
 #let obs-01 = calc(
-  calc-row(
-    start,
+  calc-start(
     $"id"_A subset.eq R$
   ),
 
@@ -25,8 +24,5 @@
     $(forall x | x in A : x "R" x)$
   ),
 
-  calc-row(
-    finish,
-    []
-  )
+  calc-finish
 )

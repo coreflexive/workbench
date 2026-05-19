@@ -48,6 +48,20 @@
   body,
 )
 
+#let calc-start(body) = (
+  calc-row(
+    start,
+    body
+  )
+)
+
+#let calc-finish = (
+  calc-row(
+    finish,
+    []
+  )
+)
+
 #let step(relation, reason, body) = (
   relation,
   hint(reason),
