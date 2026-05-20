@@ -1,13 +1,9 @@
-# Derivary
+# Workbench
 
-Structured mathematical derivations in relation algebra, predicate calculus, Galois connections, and calculational proof.
+Loose structured mathematical derivations.
 
-Each derivation directory contains its Typst source and compiled PDF. Shared Typst helpers are in `lib/`.
+This repository contains calculations, experiments, fragments, and working notes that do not yet have a stable home in the main `derivary` archive.
 
-PDFs typically begin with a theory index listing parameters, assumptions, definitions, and observations. Proofs of observations follow as structured calculations.
+Some calculations may later be cleaned up and moved into `derivary`. Others may remain here as records of exploration.
 
-For a small example, see the compiled [`Reflexive`](./reflexive/main.pdf) derivation.
-
-I may add commentary where it is useful, but the calculations are intended to stand on their own.
-
-This is a working archive.
+The aim is to make structured derivation visible as a working practice: not only as polished exposition, but as a way of thinking on the page.
