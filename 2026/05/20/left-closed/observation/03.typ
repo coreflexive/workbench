@@ -1,5 +1,13 @@
 #import "../../lib/calc.typ": *
 
+#set page(
+  width: auto,
+  height: auto,
+  margin: 4pt,
+)
+
+#set text(size: 11pt)
+
 #let obs-03 = calc(
   calc-start(
     $X = R[X]$

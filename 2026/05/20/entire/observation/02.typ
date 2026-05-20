@@ -1,6 +1,14 @@
 #import "../../lib/calc.typ":*
 #import "../../lib/rel.typ": *
 
+#set page(
+  width: auto,
+  height: auto,
+  margin: 4pt,
+)
+
+#set text(size: 11pt)
+
 #let obs-02 = calc(
   calc-start(
     $#rel-id("B") subset.eq R^circle.small dot R$

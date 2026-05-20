@@ -1,6 +1,22 @@
 #import "../../lib/calc.typ":*
 #import "../../lib/rel.typ": *
 
+#set page(
+  width: auto,
+  height: auto,
+  margin: 4pt,
+)
+
+#set text(size: 11pt)
+
+#set page(
+  width: auto,
+  height: auto,
+  margin: 4pt,
+)
+
+#set text(size: 11pt)
+
 #let obs-01 = calc(
   calc-start(
     $"id"_A subset.eq R$
