@@ -53,7 +53,7 @@
 
   step(
     $equiv$,
-    [Reflexivity of $R$],
+    [Reflexivity of $R$, using assumption a.],
     calc(
       calc-row(
         start,

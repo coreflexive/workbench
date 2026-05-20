@@ -2,6 +2,7 @@
 
 #import "./index.typ": *
 #import "./observation/01.typ": *
+#import "./observation/02.typ": *
 
 #set page(
   margin: 2.5cm,
@@ -30,4 +31,9 @@
 #artefact(
   "Proof of Observation 1",
   boxed[#obs-01]
+)
+
+#artefact(
+  "Proof of Observation 1",
+  boxed[#obs-02]
 )
