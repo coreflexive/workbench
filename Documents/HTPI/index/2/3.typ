@@ -1,7 +1,6 @@
-#import "./lib/theory.typ": *
-#import "./lib/rel.typ": *
+#import "../../lib/theory.typ": *
 
-#let index = centred-theory(
+#let eg-3 = centred-theory(
   [Example 2.3.3],
   (
     ..section("Parameters"),
@@ -9,6 +8,8 @@
     ..declare($"A"$,
         $"Set"$),
 
+    ..declare($"A"$,
+        $"Set"$),
         
     ..section("Observations"),
     
@@ -33,4 +34,4 @@
   )
 )
 
-#index
+#eg-3

@@ -1,5 +1,5 @@
 #import "./lib/doc.typ": *
-#import "./index.typ": *
+#import "index/2/3.typ" as sect-2-3
 
 #set page(
   margin: 2.5cm,
@@ -47,4 +47,6 @@
 
 == 2.3 More operations on sets
 
-#index
+Example 2.3.3 asks us to analyse the logical forms of several statements involving powersets.
+
+#sect-2-3.eg-3
