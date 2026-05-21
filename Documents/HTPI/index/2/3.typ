@@ -30,7 +30,21 @@
     ),
     ..theory-line("",
       $equiv (exists A | (forall z | z in A : z in cal("F")) : (forall z |: z in B equiv (forall y | y in z : y in A)))$
-    )
+    ),
+
+    ..observe("4.",
+      $x in op(cal("P"))(A inter B)$
+    ),
+    ..theory-line("",
+      $equiv x in op(cal("P"))A inter x in op(cal("P"))B$
+    ),
+
+    ..observe("5.",
+      $op(cal("P"))(A inter B)$
+    ),
+    ..theory-line("",
+      $= op(cal("P"))A inter op(cal("P"))B$
+    ),
   )
 )
 
