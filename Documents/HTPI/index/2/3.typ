@@ -8,7 +8,7 @@
     ..declare($"A"$,
         $"Set"$),
 
-    ..declare($"A"$,
+    ..declare($"B"$,
         $"Set"$),
         
     ..section("Observations"),
